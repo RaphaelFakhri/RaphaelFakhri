@@ -1,4 +1,5 @@
-## Hi there 👋
+## AUB Recent Graduate with a Masters in Computer Science
+Contributor to Apache Kafka and Slimefun Minecraft java plugin. Reach me on fakhriraphael@gmail.com.
 
 <!--
 **RaphaelFakhri/RaphaelFakhri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
