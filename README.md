@@ -8,30 +8,36 @@ MSc in Computer Science, AUB.
 - Durable workflows: [Temporal](https://github.com/RaphaelFakhri/shipment-triage), retries, human approval steps, evaluation gates in CI
 - Small fixes to the libraries I depend on
 
-### Recent open source
+### Open source
+
+Merged contributions, newest first.
+
+**[versatica/mediasoup](https://github.com/versatica/mediasoup)** and **[mediasoup-client](https://github.com/versatica/mediasoup-client)**
+- [mediasoup#1955](https://github.com/versatica/mediasoup/pull/1955) Worker: fix `RtxEncode()` writing 2 bytes beyond the end of the packet
+- [mediasoup#1952](https://github.com/versatica/mediasoup/pull/1952) Node: fix `pipeToRouter()` failing forever after a failed pair creation
+- [mediasoup#1950](https://github.com/versatica/mediasoup/pull/1950) Rust: fix `ScalabilityMode::ksvc()` for `L2T1_KEY`
+- [mediasoup-client#389](https://github.com/versatica/mediasoup-client/pull/389) Stop the track if `produce()` is called on a closed Transport
+- [mediasoup-client#388](https://github.com/versatica/mediasoup-client/pull/388) Treat `maxRetransmits: 0` and `maxPacketLifeTime: 0` as given in `produceData()`
+- [mediasoup-client#386](https://github.com/versatica/mediasoup-client/pull/386) Close the DataChannel if `produceData()` fails
+- [mediasoup-client#385](https://github.com/versatica/mediasoup-client/pull/385) Reject `setMaxSpatialLayer()` if the handler fails
+
+**[livekit](https://github.com/livekit)**
+- [livekit#4922](https://github.com/livekit/livekit/pull/4922) SFU: fix data stats bitrate and duration units
+- [livekit#4923](https://github.com/livekit/livekit/pull/4923) Measure data blob keys by their content
+- [agents#7523](https://github.com/livekit/agents/pull/7523) Gladia STT: store region in `update_options`
+
+**[domaindrivendev/Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)**, 7 merged, including
+- [#4130](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4130) Drop the regex route constraint from the default Swagger route
+- [#4129](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4129) Keep a property's own summary when comments come from several XML files
+- [#4128](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4128) Emit form encoding for properties of a complex form parameter
 
 **[nodejs/undici](https://github.com/nodejs/undici)**
-- [#5723](https://github.com/nodejs/undici/pull/5723) test: restore /xhr to the WPT filter (merged)
-- [#5721](https://github.com/nodejs/undici/pull/5721) types: expose PendingInterceptor and PendingInterceptorsFormatter on the MockAgent namespace (merged)
-- [#5700](https://github.com/nodejs/undici/pull/5700) fix(cache): freshen the stored entry when a 304 extends its lifetime
-- [#5659](https://github.com/nodejs/undici/pull/5659) fix(cache): add response delay to corrected age value
+- [#5721](https://github.com/nodejs/undici/pull/5721) Expose `PendingInterceptor` types on the MockAgent namespace
+- [#5723](https://github.com/nodejs/undici/pull/5723) Restore /xhr to the WPT filter
 
-**[domaindrivendev/Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)**
-- [#4129](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4129) Keep a property's own summary when comments come from several XML files (merged)
-- [#4128](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4128) Emit form encoding for properties of a complex form parameter (merged)
-- [#4133](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4133) Convert the last hand-written C# example to a MarkdownSnippets snippet (merged)
-- [#4115](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4115) Add coverage for AddServer across multiple documents (merged)
-- [#4116](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4116) Use Minimal APIs JSON options when MVC is not registered
+**Also merged in** [Braintrust Python SDK](https://github.com/braintrustdata/braintrust-sdk-python/pulls?q=is%3Apr+author%3ARaphaelFakhri+is%3Amerged) (3), [Braintrust JS SDK](https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2538), [supabase-flutter](https://github.com/supabase/supabase-flutter/pull/1898), [media-chrome](https://github.com/muxinc/media-chrome/pull/1321) and [Cloudflare RealtimeKit UI](https://github.com/cloudflare/realtimekit-ui/pull/177).
 
-**[fluentmigrator/fluentmigrator](https://github.com/fluentmigrator/fluentmigrator)**
-- [#2384](https://github.com/fluentmigrator/fluentmigrator/pull/2384) Provider-agnostic NULL semantics for unique indexes
-- [#2385](https://github.com/fluentmigrator/fluentmigrator/pull/2385) Only strip known literal prefixes in the FM0002 code fix
-- [#2383](https://github.com/fluentmigrator/fluentmigrator/issues/2383) Issue: NullsDistinct semantics inverted between Postgres 15 and earlier generators
-
-**[confident-ai/deepeval](https://github.com/confident-ai/deepeval)**
-- [#3123](https://github.com/confident-ai/deepeval/pull/3123) Close per-call OpenAI clients in gateway models
-
-[All pull requests](https://github.com/pulls?q=is%3Apr+author%3ARaphaelFakhri+-user%3ARaphaelFakhri)
+[All merged pull requests](https://github.com/pulls?q=is%3Apr+author%3ARaphaelFakhri+is%3Amerged+-user%3ARaphaelFakhri+-user%3Arivergtm)
 
 ### Contact
 
