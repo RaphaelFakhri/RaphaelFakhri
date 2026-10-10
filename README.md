@@ -10,7 +10,7 @@ MSc in Computer Science, AUB.
 
 ### Open source
 
-Merged contributions, biggest projects first.
+Merged contributions.
 
 **[tailscale/tailscale](https://github.com/tailscale/tailscale)**
 - [#21533](https://github.com/tailscale/tailscale/pull/21533) util/cmpver: don't panic on numbers that overflow a uint64
